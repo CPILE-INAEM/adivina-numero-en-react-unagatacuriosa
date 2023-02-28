@@ -24,18 +24,21 @@ function App() {
     console.log(`El numero secreto es ${secretNumber}`);
     console.log(`El numero introducido es ${number}`);
     if (number === secretNumber) {
-      //mensaje ganado HECHO
+      // mensaje ganado HECHO
       // mostar numero ganado HECHO
+      // cambiar fondo
+      // si el escore es mayor actualizar
     } else if (score === 1) {
       setScore(score - 1);
-      // perder
+      // perder HECHO
       // cambiar color
-    } else {
+    } else if (number !== "") {
       console.log("Entra");
-      // setScore(score - 1);
-      // mensaje es mas alto
+      setScore(score - 1);
+      // mensaje es mas bajo HECHO
       // disminuir el score
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
 
   return (
