@@ -32,7 +32,8 @@ function App() {
       // cambiar color
     } else {
       console.log("Entra");
-      //mensaje es mas alto
+      // setScore(score - 1);
+      // mensaje es mas alto
       // disminuir el score
     }
   }, [number]);
