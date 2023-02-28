@@ -114,10 +114,10 @@ h1 {
 }
 
 .win {
-  background-color: green;
+  background-color: #004900;
 }
 .lose {
-  background-color: red;
+  background-color: #7e041a;
 }
 .playing {
   background-color: #222;
