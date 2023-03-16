@@ -1,3 +1,5 @@
+import { FloatingWhatsApp } from "react-floating-whatsapp";
+
 import "./App.css";
 
 import { useState, useRef, useEffect } from "react";
@@ -63,6 +65,7 @@ function App() {
 
   return (
     <div className={statusBack}>
+      <FloatingWhatsApp />
       {console.log("Renderizando APP")}
       <header>
         <h1>Guess My Number!</h1>
